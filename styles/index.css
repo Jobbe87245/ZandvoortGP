@@ -1,5 +1,6 @@
 body{
-    margin: 0px;
+  margin: 0px;
+  background-color: rgb(71, 71, 71);
 }
 ul {
   list-style-type: none;
