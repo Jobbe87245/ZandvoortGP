@@ -41,4 +41,12 @@ ul {
 	box-shadow: 5px 10px 8px #000000;
   }
   
- 
+ #homeHetCircuit{
+	 background-color: rgb(255, 72, 0);
+	 height: 60px;
+	 width: 120px;
+	 margin: 10px;
+	 text-decoration: none;
+	 border: none;
+	 box-shadow: 5px 5px 5px #000000b7;
+ }
