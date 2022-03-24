@@ -51,8 +51,7 @@ ul {
     text-align: center;
  }
  #newsLetter{
-     top: 600px;
-     border-color: solid red;
-    
+     border: solid red;
+    margin-top: auto;
  }
  
