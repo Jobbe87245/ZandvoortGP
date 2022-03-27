@@ -17,28 +17,33 @@ ul {
 	top: 0;
   }
   
-  li {
+li {
 	float: right;
 	margin-right: 50px;
 }
-  #liNaarLinks{
+
+#liNaarLinks{
 	margin-right: 10%;
   }
   
-  li a {
+li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 18px;
 	text-decoration: none;
 	font-size: 25px;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	font-family: "Audiowide", sans-serif;
+	opacity: 0.6;
+	transition: 0.5s;
+	border-radius: 5px;
   }
 
   li a:hover {
-	background-color: rgb(253, 106, 8);
+	background-color: rgba(253, 8, 8, 0.432);
 	border-radius: 5px;
 	box-shadow: 5px 10px 8px #000000;
+	opacity: 1
   }
   
  #homeHetCircuit{
@@ -134,15 +139,14 @@ ul {
 	grid-row: 1;
   }
   		/* BUTTON GRID IN GRID */
-		  #buttonGridInGrid{
-			background-color: rgb(255, 72, 0);
+		  #inputGridInGrid{
 			border: none;
 			border-radius: 5px;
-			height: 50px;
-			width: 100px;
-			margin: 5px;
+			height: 40px;
+			width: 200px;
+			margin: 15px;
 			box-shadow: 5px 5px 5px #0000008c;
-			color: white;
+			color: rgb(0, 0, 0);
 		  }
 		/* BUTTON GRID IN GRID */
   /* GRID IN GRID */
