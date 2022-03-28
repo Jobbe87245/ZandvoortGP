@@ -113,12 +113,43 @@ body{
             #btnSelecteerMaat{
                 height: 40px;
                 width: 40px;
+                text-align: center;
+                cursor: pointer;
+                outline: none;
+                color: #fff;
+                background-color: #04AA6D;
                 border: none;
-                border-radius: 3px;
-                margin-left: 5px;
-                background-color: rgba(255, 166, 0, 0.521);
-                box-shadow: 5px 5px 5px #0000008c;
+                border-radius: 15px;
+                box-shadow: 0 5px #999;
             }
+            #btnSelecteerMaat:hover {
+                background-color: #3e8e41
+            }
+            #btnSelecteerMaat:active {
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+            #bestel{
+                height: 50px;
+                width: 100px;
+                cursor: pointer;
+                outline: none;
+                color: #fff;
+                background-color: #04AA6D;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 5px #999;
+            }
+            #bestel:hover{
+                background-color: #3e8e41
+            }
+            #bestel:active{
+                background-color: #3e8e41;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+
             /* BUTTON MATEN*/
         /* GRID ITEM */
 /* GRID MERCH */
