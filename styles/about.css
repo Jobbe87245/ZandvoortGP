@@ -1,5 +1,7 @@
  
  body{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	background-color: #2a2a3f;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
@@ -13,32 +15,61 @@
 			   /* bottom, image */
 			   url(..//media/SI202109051468_hires_jpeg_24bit_rgb-scaled.jpg);
 			   background-repeat: no-repeat;
-			   background-size: 3000px;
+			   background-size: 1600, 900px;
 		   };
+		     /* hide mobile version by default */
+  .logo .mobile {
+    display: none;
+  }
+  /* when screen is less than 600px wide
+     show mobile version and hide desktop */
+  @media (max-width: 600px) {
+    .logo .mobile {
+      display: block;
+    }
+    .logo .desktop {
+      display: none;
+    }
+  }
+		   
+		   /*mobile compatibility*/
+
+		   /* @media only screen and (max-width:800px) {
+
+			/* For tablets: */
+
+			/* .main {
+			  width: 50%;
+			  padding: 20%;
+			}
+			.right {
+			  width: 100%;
+			}
+		  }
+
+		  @media only screen and (max-width:500px) {
+			/* For mobile phones: 
+			.menu, .main, .right {
+			  width: 100%;
+			  
+			}
+		  }
+		  */
 	/* nav */
 ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	overflow: auto;
 	background-color:#14141e;
 	padding: 20px;
 	position: sticky;
 	top: 0;
-	border: solid red;
-
   }
   /* tekstNav */
   li {
 	float: right;
-	margin-right: 50px;
-	
+	margin-right: 35px;
 }
-
-  #liNaarLinks{
-	margin-right: 10%;
-  }
-  
   li a {
 	display: block;
 	color: white;
@@ -48,15 +79,13 @@ ul {
 	font-size: 25px;
 	font-family: "Audiowide", sans-serif;
   }
-
   li a:hover {
-	background-color: rgb(253, 106, 8);
+	background-color: rgba(253, 8, 8, 0.432);
 	border-radius: 5px;
 	box-shadow: 5px 10px 8px #000000;
   }
-
   .footer {
-    position: fixed;
+    position: auto;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -71,26 +100,26 @@ ul {
 	 background-color: #14141e;
     margin-top: auto;
  }
-
-h1 {
+ h1 {
 		position: relative;
 		float: left;
 		color: white;
 		font-family: "Audiowide", sans-serif;
 		font-weight: bolder;
-		position: absolute;
-		top: 20%;
-		left: 15%;
-		transform: translate(-50%, -50%);
-		font-size: 50px;
+		margin-top: 11%;
+		left: 13%;
+		transform: translate(-70%, -50%);
+		font-size: 30px;
+		margin-right: 600px;
+
 	  }
-.lowerLeftCentered{
+/* .lowerLeftCentered{
 		font-family: "Audiowide", sans-serif;
 		position: absolute;
 		top: 18%;
 		left: 13%;
 		transform: translate(-50%, -50%);
-		font-size: 30px;
+		font-size: 30px; */
 
-	  }
-	 
+	  
+	

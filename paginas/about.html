@@ -10,13 +10,34 @@
     <link rel="stylesheet" id="main-css" href="https://dutchgp.com/c/ui/dgp/dist/styles/app.css" type="text/css" media="all">
     <link rel="stylesheet" href="..//styles/about.css".css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+<!-- <script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(){
+		
+		window.addEventListener('scroll', function() {
+	       
+			if (window.scrollY > 200) {
+				document.getElementById('navbar_top').classList.add('fixed-top');
+				// add padding top to show content behind navbar
+				navbar_height = document.querySelector('.navbar').offsetHeight;
+				document.body.style.paddingTop = navbar_height + 'px';
+			} else {
+			 	document.getElementById('navbar_top').classList.remove('fixed-top');
+				 // remove padding top from body
+				document.body.style.paddingTop = '0';
+			} 
+		});
+	}); 
+	// DOMContentLoaded  end -->
+</script>
 </head>
 <body>
     <!-- navbar -->
     <ul style="background-color:#14141e;">
-        <div id="liNaarLinks">
-            <img src="https://dutchgp.com/c/ui/dgp/dist/img/dgp-2022.svg" alt="" width="5%" height="5%" style="margin: auto;">
+        <div class="logo">
+            <img src="https://dutchgp.com/c/ui/dgp/dist/img/dgp-2022.svg" alt="" width="8%" height="10%" style="margin:auto;">
+            <img src="/images/logo_mobile.png" class="mobile"/>
             <li><a href="#merch">Merch</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#ticket">Ticket</a></li>
@@ -24,16 +45,18 @@
         </div>
       </ul>
 <!-- Image Slider -->
+
 <!-- fieldset -->
 <fieldset>
-
-
 <!-- Tekst over Foto -->
-<h1 class = lowerLeftCentered>
+    <h1>
      About the<br>
      dutch grand<br>
-     prix</h1>
-   </fieldset>
+     prix
+    </h1>
+</fieldset>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quia unde hic vero esse provident quidem <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo iste, necessitatibus asperiores commodi voluptatem assumenda. Voluptas sint a, dignissimos dolor, dolorem repudiandae necessitatibus aspernatur atque incidunt qui, harum commodi alias!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis ratione, perferendis eveniet consequuntur optio? Nihil, placeat. Deserunt sed quaerat reprehenderit sint sit maiores! Ad commodi totam magni quam enim.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis ratione, perferendis eveniet consequuntur optio? Nihil, placeat. Deserunt sed quaerat reprehenderit sint sit maiores! Ad commodi totam magni quam enim.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis ratione, perferendis eveniet consequuntur optio? Nihil, placeat. Deserunt sed quaerat reprehenderit sint sit maiores! Ad commodi totam magni quam enim.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis ratione, perferendis eveniet consequuntur optio? Nihil, placeat. Deserunt sed quaerat reprehenderit sint sit maiores! Ad commodi totam magni quam enim.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis ratione, perferendis eveniet consequuntur optio? Nihil, placeat. Deserunt sed quaerat reprehenderit sint sit maiores! Ad commodi totam magni quam enim.<br> corrupti, eveniet aliquid alias ratione consectetur quod officia, dolorem, ex placeat inventore nisi aliquam.</p>
+
 <!-- newsletter-Footer -->
       <div id="newsLetter">
       <div class="page-footer__newsletter">
