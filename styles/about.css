@@ -13,7 +13,7 @@
 			   /* bottom, image */
 			   url(..//media/SI202109051468_hires_jpeg_24bit_rgb-scaled.jpg);
 			   background-repeat: no-repeat;
-			   background-size: 1950px;
+			   background-size: 3000px;
 		   };
 	/* nav */
 ul {
@@ -71,3 +71,26 @@ ul {
 	 background-color: #14141e;
     margin-top: auto;
  }
+
+h1 {
+		position: relative;
+		float: left;
+		color: white;
+		font-family: "Audiowide", sans-serif;
+		font-weight: bolder;
+		position: absolute;
+		top: 20%;
+		left: 15%;
+		transform: translate(-50%, -50%);
+		font-size: 50px;
+	  }
+.lowerLeftCentered{
+		font-family: "Audiowide", sans-serif;
+		position: absolute;
+		top: 18%;
+		left: 13%;
+		transform: translate(-50%, -50%);
+		font-size: 30px;
+
+	  }
+	 
