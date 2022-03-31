@@ -15,11 +15,13 @@ ul {
 	padding: 20px;
 	position: sticky;
 	top: 0;
+
   }
   
 li {
 	float: right;
 	margin-right: 50px;
+
 }
 
 #liNaarLinks{
@@ -37,6 +39,7 @@ li a {
 	opacity: 0.6;
 	transition: 0.5s;
 	border-radius: 5px;
+	
   }
 
   li a:hover {

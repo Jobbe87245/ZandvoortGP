@@ -1,0 +1,43 @@
+body{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #2a2a3f;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background:
+			   /* top, transparent black, faked with gradient */ 
+			   linear-gradient(
+				 rgba(0, 0, 0, 0.7), 
+				 rgba(0, 0, 0, 0.7)
+			   ),
+}
+#SLIDE_BG{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 18s linear infinite 0s;
+    animation-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
+    background-image: url('../media/homePaginaBackground.png');
+}
+
+@keyframes slideBg{
+    0%{
+        background-image: url('../media/A38I9789-852x611.jpg')
+    }
+    25%{
+        background-image: url('../media/admin-dgp-header-4.jpg')
+    }
+    50%{
+        background-image: url('../media/homePaginaBackground.jpg')
+    }
+    75%{
+        background-image: url('../media/Formula-1-Heineken-Dutch-Grand-Prix-11-scaled.jpg')
+    }
+    100%{
+        background-image: url('../media/About-04.png')
+    }
+}
