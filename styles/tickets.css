@@ -1,31 +1,50 @@
-body{
-    margin: 0px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+ 
+ body{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #2a2a3f;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	background:
+			   /* top, transparent black, faked with gradient */ 
+			   linear-gradient(
+				 rgba(0, 0, 0, 0.7), 
+				 rgba(0, 0, 0, 0.7)
+			   ),
+			   /* bottom, image */
+			   url(..//media/SI202109051468_hires_jpeg_24bit_rgb-scaled.jpg);
+			   background-repeat: no-repeat;
+			   background-size: 200, 200px;
+		   }; 
+		 
+	/* nav */
+
+ ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 15px;
+	position: sticky;
+	top: 0;
   }
-  
+  /* tekstNav */
   li {
-    float: left;
-  }
-  
+	float: right;
+	margin-right: 35px;
+}
   li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 18px;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "Audiowide", sans-serif;
+	
   }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
+  li a:hover {
+	background-color: rgba(253, 8, 8, 0.432);
+	border-radius: 5px;
+	box-shadow: 5px 10px 8px #000000;
   }
-  
-  .active {
-    background-color: #04AA6D;
-  }
-/* Navbar */
