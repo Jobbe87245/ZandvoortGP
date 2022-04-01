@@ -13,9 +13,9 @@
 				 rgba(0, 0, 0, 0.7)
 			   ),
 			   /* bottom, image */
-			   url(..//media/SI202109051468_hires_jpeg_24bit_rgb-scaled.jpg);
+			   url(..//media/A38I9789-852x611.jpg);
 			   background-repeat: no-repeat;
-			   background-size: 200, 200px;
+			   background-size: cover;
 		   }; 
 		 
 	/* nav */
