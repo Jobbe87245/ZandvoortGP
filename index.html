@@ -36,7 +36,7 @@
     <!-- FOTO -->
     <!-- counterpounter -->
 
-    <p id="demo"></p>
+    <p id="countdown"></p>
 
     <script>
     // Set the date we're counting down to
@@ -57,7 +57,7 @@
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
        // Output the result in an element with id="demo"
-       document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+       document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
       + minutes + "m " + seconds + "s ";
         
       // If the count down is over, write some text 
