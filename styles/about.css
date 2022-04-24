@@ -91,4 +91,9 @@ img {vertical-align: middle;}
   margin: auto;
   position:relative;
 }
-
+.info{
+	background-color: rgba(0, 0, 0, 0.644);
+	padding: 3px;
+	position: relative;
+	color: white;
+}
